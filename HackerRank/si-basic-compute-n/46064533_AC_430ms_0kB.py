@@ -1,0 +1,10 @@
+a=int(input())
+fact=1
+b=a
+if(b==0):
+    print(1)
+else:
+    while(a!=1):
+        fact*=a
+        a-=1
+    print(fact)

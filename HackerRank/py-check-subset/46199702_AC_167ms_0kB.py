@@ -1,0 +1,11 @@
+n=int(input())
+while(n):
+    n-=1
+    a1=int(input())
+    a=set(map(int,input().split()))
+    b1=int(input())
+    b=set(map(int,input().split()))
+    if(b.issuperset(a)):
+        print(True)
+    else:
+        print(False)
